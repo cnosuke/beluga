@@ -8,6 +8,7 @@
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "esModuleInterop": true,
+    "noImplicitThis": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
@@ -26,6 +27,11 @@
       "scripthost"
     ]
   },
+  "typeRoots" : [
+    "src/types/",
+    "node_modules/@types/",
+    "src/pb/"
+  ],
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
